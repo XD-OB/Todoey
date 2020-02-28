@@ -25,15 +25,6 @@ class AddTaskScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Text(
-              'Add Task',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: kColorScaffold,
-                fontFamily: 'Sriracha',
-                fontSize: 30.0,
-              ),
-            ),
             TextField(
               autofocus: true,
               textAlign: TextAlign.center,
@@ -44,6 +35,15 @@ class AddTaskScreen extends StatelessWidget {
               onChanged: (newValue) {
                 text = newValue;
               },
+            ),
+            Text(
+              'Add Task',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: kColorScaffold,
+                fontFamily: 'Sriracha',
+                fontSize: 30.0,
+              ),
             ),
             SizedBox(height: 30.0),
             AddButton(
