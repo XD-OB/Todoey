@@ -19,4 +19,10 @@ A todolist app to keep track of all your tasks.
 - Learn about design patterns and why they are useful.
 - Understand how the Provider package works and use it to manage app state.
 
-## obelouch 1337
+## Owner
+
+- Oussama Belouche 1337
+
+#
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
